@@ -2,26 +2,26 @@ import java.util.ArrayList;
 import java.util.List;
 
 class EmployeeInfo {
-    private String ManagerName;
-    private String Department;
-    private String Status;
+    private String managerName;
+    private String department;
+    private String status;
     private String reviewDate;
     private String nextReviewDate;
     private double salary;
 
     public EmployeeInfo(String managerName, String department, String status, String reviewDate, String nextReviewDate,double salary) {
-        this.ManagerName = managerName;
-        this.Department = department;
-        this.Status = status;
+        this.managerName = managerName;
+        this.department = department;
+        this.status = status;
         this.reviewDate = reviewDate;
         this.nextReviewDate = nextReviewDate;
         this.salary = salary;
     }
 
     public void displayJobInfo() {
-        System.out.println("Manager Name: " + ManagerName);
-        System.out.println("Department: " + Department);
-        System.out.println("Status: " + Status);
+        System.out.println("Manager Name: " + managerName);
+        System.out.println("Department: " + department);
+        System.out.println("Status: " + status);
         System.out.println("Review Date: " + reviewDate);
         System.out.println("Next Review Date: " + nextReviewDate);
         System.out.println("Salary: " + salary);
@@ -30,35 +30,35 @@ class EmployeeInfo {
 }
 
 class Employee {
-    private String Name;
-    private String Address;
-    private String City;
-    private String State;
-    private String Country;
-    private String ZipCode;
-    private String ImgPath;
+    private String name;
+    private String address;
+    private String city;
+    private String state;
+    private String country;
+    private String zipCode;
+    private String imgPath;
 
 
     public Employee(String name, String address, String city, String state, String country, String zipCode, String imgPath) {
-        Name = name;
-        Address = address;
-        City = city;
-        State = state;
-        Country = country;
-        ZipCode = zipCode;
-        ImgPath = imgPath;
+        name = name;
+        address = address;
+        city = city;
+        state = state;
+        country = country;
+        zipCode = zipCode;
+        imgPath = imgPath;
 
     }
 
 
     public void displayRecord(){
-        System.out.println("Employee Name: " + Name);
-        System.out.println("Address: " + Address);
-        System.out.println("City: " + City);
-        System.out.println("State: " + State);
-        System.out.println("Country: " + Country);
-        System.out.println("Zip Code: " + ZipCode);
-        System.out.println("ImgPath: " + ImgPath);
+        System.out.println("Employee Name: " + name);
+        System.out.println("Address: " + address);
+        System.out.println("City: " + city);
+        System.out.println("State: " + state);
+        System.out.println("Country: " + country);
+        System.out.println("Zip Code: " + zipCode);
+        System.out.println("ImgPath: " + imgPath);
 
     }
 
